@@ -1,0 +1,83 @@
+* {
+    margin: 0
+  }
+
+  #app {
+    width: 100vw;
+    min-width: 1200px;
+    height: 100vh;
+    background-image: url(./resource/11.WEBP);
+    background-position: center -100px;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+    font-size: 32px;
+  }
+
+  .happy {
+    position: absolute;
+    top: 200px;
+    left: 20%;
+    font-family: "Dangrek", cursive;
+    font-size: 45px;
+  }
+
+  .sad {
+    position: absolute;
+    top: 400px;
+    left: 28%;
+    font-family: "Dangrek", cursive;
+    font-size: 45px;
+  }
+
+  .angry {
+    position: absolute;
+    top: 200px;
+    left: 70%;
+    font-family: "Dangrek", cursive;
+    font-size: 45px;
+  }
+
+  .scary {
+    position: absolute;
+    top: 400px;
+    left: 65%;
+    font-family: "Dangrek", cursive;
+    font-size: 45px;
+  }
+
+  .cb {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-59%);
+    top: 580px;
+    font-size: 45px;
+    font-family: "Indie Flower", cursive;
+  }
+
+  .hide {
+    position: absolute;
+    left: -9999999px;
+    top: -999999px;
+  }
+
+  .link {
+    transform: scale(1) translateY(0px);
+    transition: transform 0.15s ease-out;
+  }
+
+  .link:hover {
+    transform: scale(1.05) translateY(-20px);
+
+  }
+
+  footer{
+    font-family:"Indie Flower";
+    bottom:0;
+    padding-bottom:45px;
+    font-size:20px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    width:100%;
+  }
