@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Companion Bot?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Dangrek&family=Indie+Flower&display=swap" rel="stylesheet">
+  <link href="style2.css" rel="stylesheet"/>
+</head>
+
+<body>
+  <div id="app">
+    <div class="happy link">Happy?</div>
+    <div class="sad link">Sad?</div>
+    <div class="angry link">Angry?</div>
+    <div class="scary link">Scary?</div>
+    <div class="cb">Companion Bot?</div>
+
+    <div class="hide">
+      <img src="./resource/happy.JPG" alt="">
+      <img src="./resource/sad.JPG" alt="">
+      <img src="./resource/angry.JPG" alt="">
+      <img src="./resource/scary.JPG" alt="">
+    </div>
+  </div>
+
+  <script>
+    const app = document.getElementById('app')
+    const happy = document.querySelector('.happy')
+    happy.addEventListener('mouseenter', () => {
+      app.style.backgroundImage = 'url(./resource/happy.JPG)'
+    })
+    happy.addEventListener('mouseleave', () => {
+      app.style.backgroundImage = 'url(./resource/11.WEBP)'
+    })
+    const sad = document.querySelector('.sad')
+    sad.addEventListener('mouseenter', () => {
+      app.style.backgroundImage = 'url(./resource/sad.JPG)'
+    })
+    sad.addEventListener('mouseleave', () => {
+      app.style.backgroundImage = 'url(./resource/11.WEBP)'
+    })
+    const angry = document.querySelector('.angry')
+    angry.addEventListener('mouseenter', () => {
+      app.style.backgroundImage = 'url(./resource/angry.JPG)'
+    })
+    angry.addEventListener('mouseleave', () => {
+      app.style.backgroundImage = 'url(./resource/11.WEBP)'
+    })
+    const scary = document.querySelector('.scary')
+    scary.addEventListener('mouseenter', () => {
+      app.style.backgroundImage = 'url(./resource/scary.JPG)'
+    })
+    scary.addEventListener('mouseleave', () => {
+      app.style.backgroundImage = 'url(./resource/11.WEBP)'
+    })
+  </script>
+  <footer>
+    <p>1b5117669ccf1eab902fe1866f241507e2b8f0f6260ad6e78d81c0008d3468d0</p>
+  </footer>
+</body>
+
+</html>
