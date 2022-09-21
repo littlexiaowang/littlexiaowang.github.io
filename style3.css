@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+}
+
+body{
+    background-image: url(../littlexiaowang.github.io/resource/bg3.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.content{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    text-align: center;
+    line-height: 30px;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:15px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #DA4900;
+    font-family: "Josefin Sans",cursive;
+    font-size: 20px;
+}
+
+.lane1{
+    font-size:55px;
+    margin-bottom: 15px;
+    font-family: "Nabla",cursive;
+}
+
+.lane2{
+    font-size: 25px;
+    font-family: "Bungee Spice",cursive;
+    margin-bottom: 10px;
+}
+
+.lane3{
+    margin-top: -5px;
+    font-size:30px;
+    font-family: "Shadows Into Light", cursive;
+}
