@@ -1,0 +1,86 @@
+* {
+  margin: 0
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./resource/Perlin-Noise0-2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#app img {
+  width: 200px;
+  height: 200px;
+}
+
+#app .cover {
+  position: relative;
+  width: 200px;
+}
+
+.content {
+  width: 768px;
+  margin: 0 auto;
+}
+
+.img-wrap {
+  justify-content: space-between;
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  padding: 110px 0 64px;
+  font-size: 50px;
+  font-family: "Chakra Petch",cursive;
+}
+
+.cover:hover .text {
+  display: block;
+}
+
+.cover:hover img {
+  box-shadow: 0 0 4px 3px rgba(186, 186, 186, 0.6);
+  transform: translateY(0);
+  transition: transform 0.15s ease-out;
+}
+
+.cover:hover img {
+  transform: translateY(-10px);
+}
+
+.text {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  width: 500px;
+  background: #fff;
+  box-shadow: 0 0 40px 3px rgba(186, 186, 186, 0.6);
+  padding: 16px;
+  border-radius: 8px;
+  font-family: "Righteous",cursive;
+  color: #0799f2;
+}
+
+#check {
+  cursor: pointer;
+  text-align: center;
+  margin-top: 115px;
+  font-size: 40px;
+  font-family: "Permanent Marker",cursive;
+  color: #45217c;
+}
+
+footer{
+  width:100%;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 9px;
+  font-family: "Permanent Marker",cursive;
+  font-size: 20px;
+  text-align: center;
+}
